@@ -4,14 +4,15 @@ import { Observable } from 'rxjs';
 import { Product } from '../common/product';
 import { map } from 'rxjs/operators'
 import { ProductCategory } from '../common/product-category';
+import { environment } from 'src/environments/environment.prod';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
    
-  private baseUrl = 'http://localhost:8080/api/products'
-  private categoryUrl = 'http://localhost:8080/api/product-category'
+  private baseUrl = environment.baseUrl;
+  private categoryUrl = environment.categoryUrl;
 
   constructor(private httpClient: HttpClient) {}
 
