@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  baseUrl: 'http://ec2-34-228-194-29.compute-1.amazonaws.com:8080/products/',
-  categoryUrl: 'http://ec2-34-228-194-29.compute-1.amazonaws.com:8080/product-category'
+  baseUrl: 'http://crudcompras2-env.eba-2edybmp9.us-east-1.elasticbeanstalk.com/products',
+  categoryUrl: 'http://crudcompras2-env.eba-2edybmp9.us-east-1.elasticbeanstalk.com/product-category'
 };

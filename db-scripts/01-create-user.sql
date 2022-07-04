@@ -1,15 +1,49 @@
-CREATE USER 'guerratesters'@'localhost' IDENTIFIED BY 'guerratesters';
+CREATE DATABASE planillas;package com.example.asys.Entities;
 
-GRANT ALL PRIVILEGES ON * . * TO 'guerratesters'@'localhost';
+public class Course {
+    private String aula;
+    private String horario;
+    private String nombrecurso;
+    private String nombredocente;
 
-#
-# Starting with MySQL 8.0.4, the MySQL team changed the 
-# default authentication plugin for MySQL server 
-# from mysql_native_password to caching_sha2_password.
-#
-# The command below will make the appropriate updates for your user account.
-#
-# See the MySQL Reference Manual for details: 
-# https://dev.mysql.com/doc/refman/8.0/en/caching-sha2-pluggable-authentication.html
-#
-ALTER USER 'guerratesters'@'localhost' IDENTIFIED WITH mysql_native_password BY 'guerratesters';
+    public String getAula() {
+        return aula;
+    }
+
+    public void setAula(String aula) {
+        this.aula = aula;
+    }
+
+    public String getHorario() {
+        return horario;
+    }
+
+    public void setHorario(String horario) {
+        this.horario = horario;
+    }
+
+    public String getNombrecurso() {
+        return nombrecurso;
+    }
+
+    public void setNombrecurso(String nombrecurso) {
+        this.nombrecurso = nombrecurso;
+    }
+
+    public String getNombredocente() {
+        return nombredocente;
+    }
+
+    public void setNombredocente(String nombredocente) {
+        this.nombredocente = nombredocente;
+    }
+
+    public Course(){}
+
+    public Course(String aula, String horario, String nombrecurso, String nombredocente) {
+        this.aula = aula;
+        this.horario = horario;
+        this.nombrecurso = nombrecurso;
+        this.nombredocente = nombredocente;
+    }
+}

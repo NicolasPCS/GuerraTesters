@@ -46,16 +46,16 @@ AUTO_INCREMENT = 1;
 INSERT INTO product_category(category_name) VALUES ('MEDICAMENTOS');
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,unit_price, category_id, date_created)
-VALUES ('AMOXICILINA-MED-1000', 'AMOXICILINA', 'AMOXICILINA, 250mg/5m','assproductets/images/products/placeholder.png',1,100,19.99,1, NOW());
+VALUES ('AMOXICILINA-MED-1000', 'AMOXICILINA', 'AMOXICILINA, 250mg/5m','assets/images/products/medicamentos/amoxicilina.jpg',1,100,19.99,1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,unit_price, category_id, date_created)
-VALUES ('ATORVASTATINA-MED-1001', 'ATORVASTATINA', 'ATORVASTATINA (como sal cálcia), 20 mg','assets/images/products/placeholder.png',1,100,29.99,1, NOW());
+VALUES ('ATORVASTATINA-MED-1001', 'ATORVASTATINA', 'ATORVASTATINA (como sal cálcia), 20 mg','assets/images/products/medicamentos/atorvastatina.jpg',1,100,29.99,1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,unit_price, category_id, date_created)
-VALUES ('AZITROMICINA-MED-1002', 'AZITROMICINA', 'AZITROMICINA, 500mg','assets/images/products/placeholder.png',1,100,24.99,1, NOW());
+VALUES ('AZITROMICINA-MED-1002', 'AZITROMICINA', 'AZITROMICINA, 500mg','assets/images/products/medicamentos/azithromycin.jpg',1,100,24.99,1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,unit_price, category_id, date_created)
-VALUES ('CAPTOPRIL-MED-1003', 'CAPTOPRIL', 'CAPTOPRIL, 25 mg','assets/images/products/placeholder.png',1,100,29.99,1, NOW());
+VALUES ('CAPTOPRIL-MED-1003', 'CAPTOPRIL', 'CAPTOPRIL, 25 mg','assets/images/products/medicamentos/captopril.jpg',1,100,29.99,1, NOW());
 
 INSERT INTO product (sku, name, description, image_url, active, units_in_stock,unit_price, category_id, date_created)
-VALUES ('CEFALEXINA-MED-1004', 'CEFALEXINA', 'CEFALEXINA, 250mg/5mL','assets/images/products/placeholder.png',1,100,24.99,1, NOW());
+VALUES ('CEFALEXINA-MED-1004', 'CEFALEXINA', 'CEFALEXINA, 250mg/5mL','assets/images/products/medicamentos/cefalexina.jpg',1,100,24.99,1, NOW());
